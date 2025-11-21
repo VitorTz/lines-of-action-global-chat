@@ -2,9 +2,8 @@
 
 
 ``` bash
-npm install -g ws
-npm install -g pm2
-pm2 start servidor.js --name global-chat-websocket
+npm install ws pm2
+pm2 start chat.js --name global-chat-websocket
 pm2 save
 pm2 startup
 ```

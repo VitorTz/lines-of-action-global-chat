@@ -1,0 +1,24 @@
+{
+  "name": "lines-of-action-global-chat",
+  "version": "1.0.0",
+  "description": "``` bash npm install -g ws npm install -g pm2 pm2 start chat.js --name global-chat-websocket pm2 save pm2 startup ```",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorTz/lines-of-action-global-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VitorTz/lines-of-action-global-chat/issues"
+  },
+  "homepage": "https://github.com/VitorTz/lines-of-action-global-chat#readme",
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
